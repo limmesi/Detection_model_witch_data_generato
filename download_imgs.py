@@ -3,7 +3,7 @@ import requests
 
 
 if __name__ == "__main__":
-    gis = GoogleImagesSearch('AIzaSyC2BWLMGzUv47_VtcONTl9urSK6p-ifpPE', '33f55a7f568934979')
+    gis = GoogleImagesSearch('_', '_')
     gis.search(search_params={
         'q': 'landscape',
         'num': 20,
